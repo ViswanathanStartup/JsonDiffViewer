@@ -1,0 +1,23 @@
+{
+  "userId": "12345",
+  "products": [
+    {
+      "id": "prod-001",
+      "name": "Laptop",
+      "price": 999.99,
+      "quantity": 1
+    },
+    {
+      "id": "prod-002",
+      "name": "Mouse",
+      "price": 29.99,
+      "quantity": 2
+    }
+  ],
+  "shipping": {
+    "method": "standard",
+    "cost": 9.99
+  },
+  "discount": null,
+  "total": 1069.96
+}

@@ -1,0 +1,32 @@
+{
+  "version": "1.0.0",
+  "database": {
+    "host": "prod-db.example.com",
+    "port": 5432,
+    "name": "myapp_prod",
+    "ssl": true,
+    "poolSize": 50,
+    "replication": true
+  },
+  "cache": {
+    "enabled": true,
+    "type": "memcached",
+    "ttl": 7200,
+    "nodes": ["cache1.example.com", "cache2.example.com"]
+  },
+  "features": {
+    "authentication": true,
+    "notifications": true,
+    "analytics": true,
+    "beta": false
+  },
+  "logging": {
+    "level": "error",
+    "format": "json",
+    "destination": "cloudwatch"
+  },
+  "security": {
+    "rateLimit": 1000,
+    "encryption": "AES-256"
+  }
+}

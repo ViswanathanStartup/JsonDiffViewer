@@ -1,0 +1,28 @@
+{
+  "name": "John Doe",
+  "age": 31,
+  "email": "john.doe@example.com",
+  "address": {
+    "street": "123 Main St",
+    "city": "Los Angeles",
+    "state": "CA",
+    "zipCode": "90001"
+  },
+  "phoneNumbers": [
+    {
+      "type": "home",
+      "number": "212-555-1234"
+    },
+    {
+      "type": "mobile",
+      "number": "310-555-9999"
+    },
+    {
+      "type": "work",
+      "number": "310-555-0000"
+    }
+  ],
+  "isActive": true,
+  "roles": ["user", "editor", "admin"],
+  "lastLogin": "2025-11-20T10:30:00Z"
+}

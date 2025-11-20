@@ -1,0 +1,33 @@
+{
+  "userId": "12345",
+  "orderDate": "2025-11-20",
+  "products": [
+    {
+      "id": "prod-001",
+      "name": "Laptop Pro",
+      "price": 1199.99,
+      "quantity": 1,
+      "sku": "LAP-PRO-001"
+    },
+    {
+      "id": "prod-002",
+      "name": "Wireless Mouse",
+      "price": 34.99,
+      "quantity": 2,
+      "sku": "MSE-WRL-002"
+    }
+  ],
+  "shipping": {
+    "method": "express",
+    "cost": 19.99,
+    "estimatedDays": 2
+  },
+  "discount": {
+    "code": "SAVE10",
+    "amount": 50.00
+  },
+  "subtotal": 1269.97,
+  "tax": 101.60,
+  "total": 1341.56,
+  "paymentMethod": "credit_card"
+}

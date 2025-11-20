@@ -1,0 +1,11 @@
+{
+  "employees": [
+    {"id": 1, "name": "Alice", "department": "Engineering"},
+    {"id": 2, "name": "Bob", "department": "Sales"},
+    {"id": 3, "name": "Charlie", "department": "Marketing"}
+  ],
+  "metadata": {
+    "count": 3,
+    "timestamp": "2025-11-01T00:00:00Z"
+  }
+}
